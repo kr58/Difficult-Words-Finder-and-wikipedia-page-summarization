@@ -1,0 +1,3 @@
+https://mathoverflow.net/questions/197781/how-many-hamiltonian-cycles-can-be-removed-from-a-complete-directed-graph-before?rq=1
+https://mathoverflow.net/questions/35834/how-many-pairs-of-edges-can-disconnect-a-biconnected-graph?rq=1
+https://biology.stackexchange.com/questions/23530/for-how-long-can-a-raven-stay-airborne-a-week-or-more

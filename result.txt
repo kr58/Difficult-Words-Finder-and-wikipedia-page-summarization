@@ -1,0 +1,2100 @@
+-----------------------Summarized Summary------------------------------
+In mathematics, more specifically functional analysis and operator theory, the notion of unbounded operator provides an abstract framework for dealing with differential operators, unbounded observables in quantum mechanics, and other cases.
+The term "unbounded operator" can be misleading, since
+"unbounded" should sometimes be understood as "not necessarily bounded";
+"operator" should be understood as "linear operator" (as in the case of "bounded operator");
+the domain of the operator is a linear subspace, not necessarily the whole space;
+this linear subspace is not necessarily closed; often (but not always) it is assumed to be dense;
+in the special case of a bounded operator, still, the domain is usually assumed to be the whole space.
+In contrast to bounded operators, unbounded operators on a given space do not form an algebra, nor even a linear space, because each one is defined on its own domain.
+The term "operator" often means "bounded linear operator", but in the context of this article it means "unbounded operator", with the reservations made above. The given space is assumed to be a Hilbert space. Some generalizations to Banach spaces and more general topological vector spaces are possible.
+---------------------------------------------------------------------
+
+In mathematics, a self-adjoint operator on a finite-dimensional complex vector space V with inner product 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        ⟩
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle }
+   is a linear map A (from V to itself) that is its own adjoint: 
+  
+    
+      
+        ⟨
+        A
+        v
+        ,
+        w
+        ⟩
+        =
+        ⟨
+        v
+        ,
+        A
+        w
+        ⟩
+      
+    
+    {\displaystyle \langle Av,w\rangle =\langle v,Aw\rangle }
+  .
+If V is finite-dimensional with a given orthonormal basis, this is equivalent to the condition that the matrix of A is Hermitian, i.e., equal to its conjugate transpose A∗.
+In this article, we consider generalizations of this concept to operators on Hilbert spaces of arbitrary dimension.
+Self-adjoint operators are used in functional analysis and quantum mechanics.
+Of particular significance is the Hamiltonian operator 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+   defined by
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        ψ
+        =
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        ψ
+        +
+        V
+        ψ
+        ,
+      
+    
+    {\displaystyle {\hat {H}}\psi =-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}\psi +V\psi ,}
+  
+which as an observable corresponds to the total energy of a particle of mass m in a real potential field V. Differential operators are an important class of unbounded operators.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, a self-adjoint operator on a finite-dimensional complex vector space V with inner product 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        ⟩
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle }
+   is a linear map A (from V to itself) that is its own adjoint: 
+  
+    
+      
+        ⟨
+        A
+        v
+        ,
+        w
+        ⟩
+        =
+        ⟨
+        v
+        ,
+        A
+        w
+        ⟩
+      
+    
+    {\displaystyle \langle Av,w\rangle =\langle v,Aw\rangle }
+  . If V is finite-dimensional with a given orthonormal basis, this is equivalent to the condition that the matrix of A is Hermitian, i.e., equal to its conjugate transpose A∗. By the finite-dimensional spectral theorem, V has an orthonormal basis such that the matrix of A relative to this basis is a diagonal matrix with entries in the real numbers. In this article, we consider generalizations of this concept to operators on Hilbert spaces of arbitrary dimension.
+Self-adjoint operators are used in functional analysis and quantum mechanics. In quantum mechanics their importance lies in the Dirac–von Neumann formulation of quantum mechanics, in which physical observables such as position, momentum, angular momentum and spin are represented by self-adjoint operators on a Hilbert space. Of particular significance is the Hamiltonian operator 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+   defined by
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        ψ
+        =
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        ψ
+        +
+        V
+        ψ
+        ,
+      
+    
+    {\displaystyle {\hat {H}}\psi =-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}\psi +V\psi ,}
+  
+which as an observable corresponds to the total energy of a particle of mass m in a real potential field V. Differential operators are an important class of unbounded operators.
+The structure of self-adjoint operators on infinite-dimensional Hilbert spaces essentially resembles the finite-dimensional case. That is to say, operators are self-adjoint if and only if they are unitarily equivalent to real-valued multiplication operators. With suitable modifications, this result can be extended to possibly unbounded operators on infinite-dimensional spaces. Since an everywhere-defined self-adjoint operator is necessarily bounded, one needs be more attentive to the domain issue in the unbounded case. This is explained below in more detail.
+---------------------------------------------------------------------
+
+In mathematics, the inverse Laplace transform of a function F(s) is the piecewise-continuous and exponentially-restricted real function f(t) which has the property:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        (
+        s
+        )
+        =
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        (
+        s
+        )
+        =
+        F
+        (
+        s
+        )
+        ,
+      
+    
+    {\displaystyle {\mathcal {L}}\{f\}(s)={\mathcal {L}}\{f(t)\}(s)=F(s),}
+  
+where 
+  
+    
+      
+        
+          
+            L
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}}
+   denotes the Laplace transform.
+It can be proven that, if a function F(s) has the inverse Laplace transform f(t), then f(t) is uniquely determined (considering functions which differ from each other only on a point set having Lebesgue measure zero as the same).
+This result was first proven by Mathias Lerch in 1903 and is known as Lerch's theorem.
+The Laplace transform and the inverse Laplace transform together have a number of properties that make them useful for analysing linear dynamical systems.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, the inverse Laplace transform of a function F(s) is the piecewise-continuous and exponentially-restricted real function f(t) which has the property:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        (
+        s
+        )
+        =
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        (
+        s
+        )
+        =
+        F
+        (
+        s
+        )
+        ,
+      
+    
+    {\displaystyle {\mathcal {L}}\{f\}(s)={\mathcal {L}}\{f(t)\}(s)=F(s),}
+  
+where 
+  
+    
+      
+        
+          
+            L
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}}
+   denotes the Laplace transform.
+It can be proven that, if a function F(s) has the inverse Laplace transform f(t), then f(t) is uniquely determined (considering functions which differ from each other only on a point set having Lebesgue measure zero as the same). This result was first proven by Mathias Lerch in 1903 and is known as Lerch's theorem.
+The Laplace transform and the inverse Laplace transform together have a number of properties that make them useful for analysing linear dynamical systems.
+---------------------------------------------------------------------
+
+The Laplace transform is a powerful integral transform used to switch a function from the time domain to the s-domain.
+First consider the following property of the Laplace transform:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          ′
+        
+        }
+        =
+        s
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        −
+        f
+        (
+        0
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}\{f'\}=s{\mathcal {L}}\{f\}-f(0)}
+  
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          ″
+        
+        }
+        =
+        
+          s
+          
+            2
+          
+        
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        −
+        s
+        f
+        (
+        0
+        )
+        −
+        
+          f
+          ′
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}\{f''\}=s^{2}{\mathcal {L}}\{f\}-sf(0)-f'(0)}
+  
+One can prove by induction that
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          
+            (
+            n
+            )
+          
+        
+        }
+        =
+        
+          s
+          
+            n
+          
+        
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        −
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          s
+          
+            n
+            −
+            i
+          
+        
+        
+          f
+          
+            (
+            i
+            −
+            1
+            )
+          
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}\{f^{(n)}\}=s^{n}{\mathcal {L}}\{f\}-\sum _{i=1}^{n}s^{n-i}f^{(i-1)}(0)}
+  
+Now we consider the following differential equation:
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        t
+        )
+        =
+        ϕ
+        (
+        t
+        )
+      
+    
+    {\displaystyle \sum _{i=0}^{n}a_{i}f^{(i)}(t)=\phi (t)}
+  
+with given initial conditions
+
+  
+    
+      
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle f^{(i)}(0)=c_{i}}
+  
+Using the linearity of the Laplace transform it is equivalent to rewrite the equation as
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        t
+        )
+        }
+        =
+        
+          
+            L
+          
+        
+        {
+        ϕ
+        (
+        t
+        )
+        }
+      
+    
+    {\displaystyle \sum _{i=0}^{n}a_{i}{\mathcal {L}}\{f^{(i)}(t)\}={\mathcal {L}}\{\phi (t)\}}
+  
+obtaining
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          s
+          
+            i
+          
+        
+        −
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            i
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          s
+          
+            i
+            −
+            j
+          
+        
+        
+          f
+          
+            (
+            j
+            −
+            1
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          
+            L
+          
+        
+        {
+        ϕ
+        (
+        t
+        )
+        }
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}\sum _{i=0}^{n}a_{i}s^{i}-\sum _{i=1}^{n}\sum _{j=1}^{i}a_{i}s^{i-j}f^{(j-1)}(0)={\mathcal {L}}\{\phi (t)\}}
+  
+Solving the equation for 
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}}
+   and substituting 
+  
+    
+      
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle f^{(i)}(0)}
+   with 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle c_{i}}
+   one obtains
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        =
+        
+          
+            
+              
+                
+                  L
+                
+              
+              {
+              ϕ
+              (
+              t
+              )
+              }
+              +
+              
+                ∑
+                
+                  i
+                  =
+                  1
+                
+                
+                  n
+                
+              
+              
+                ∑
+                
+                  j
+                  =
+                  1
+                
+                
+                  i
+                
+              
+              
+                a
+                
+                  i
+                
+              
+              
+                s
+                
+                  i
+                  −
+                  j
+                
+              
+              
+                c
+                
+                  j
+                  −
+                  1
+                
+              
+            
+            
+              
+                ∑
+                
+                  i
+                  =
+                  0
+                
+                
+                  n
+                
+              
+              
+                a
+                
+                  i
+                
+              
+              
+                s
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}={\frac {{\mathcal {L}}\{\phi (t)\}+\sum _{i=1}^{n}\sum _{j=1}^{i}a_{i}s^{i-j}c_{j-1}}{\sum _{i=0}^{n}a_{i}s^{i}}}}
+  
+The solution for f(t) is obtained by applying the inverse Laplace transform to 
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        .
+{\displaystyle {\mathcal {L}}\{f(t)\}.}
+f
+          
+            (
+            i
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          c
+          
+            i
+          
+        
+        =
+        0
+        
+        ∀
+        i
+        ∈
+        {
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        .
+n
+        }
+      
+    
+    {\displaystyle f^{(i)}(0)=c_{i}=0\quad \forall i\in \{0,1,2,...\ n\}}
+  
+then the formula simplifies to
+
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            
+              L
+            
+          
+          
+            −
+            1
+          
+        
+        
+          {
+          
+            
+              
+                
+                  
+                    L
+                  
+                
+                {
+                ϕ
+                (
+                t
+                )
+                }
+              
+              
+                
+                  ∑
+                  
+                    i
+                    =
+                    0
+                  
+                  
+                    n
+                  
+                
+                
+                  a
+                  
+                    i
+                  
+                
+                
+                  s
+                  
+                    i
+                  
+                
+              
+            
+          
+          }
+        
+      
+    
+    {\displaystyle f(t)={\mathcal {L}}^{-1}\left\{{{\mathcal {L}}\{\phi (t)\} \over \sum _{i=0}^{n}a_{i}s^{i}}\right\}}
+
+-----------------------Summarized Summary------------------------------
+The Laplace transform is a powerful integral transform used to switch a function from the time domain to the s-domain. The Laplace transform can be used in some cases to solve linear differential equations with given initial conditions.
+First consider the following property of the Laplace transform:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          ′
+        
+        }
+        =
+        s
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        −
+        f
+        (
+        0
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}\{f'\}=s{\mathcal {L}}\{f\}-f(0)}
+  
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          ″
+        
+        }
+        =
+        
+          s
+          
+            2
+          
+        
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        −
+        s
+        f
+        (
+        0
+        )
+        −
+        
+          f
+          ′
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}\{f''\}=s^{2}{\mathcal {L}}\{f\}-sf(0)-f'(0)}
+  
+One can prove by induction that
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          
+            (
+            n
+            )
+          
+        
+        }
+        =
+        
+          s
+          
+            n
+          
+        
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        −
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          s
+          
+            n
+            −
+            i
+          
+        
+        
+          f
+          
+            (
+            i
+            −
+            1
+            )
+          
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}\{f^{(n)}\}=s^{n}{\mathcal {L}}\{f\}-\sum _{i=1}^{n}s^{n-i}f^{(i-1)}(0)}
+  
+Now we consider the following differential equation:
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        t
+        )
+        =
+        ϕ
+        (
+        t
+        )
+      
+    
+    {\displaystyle \sum _{i=0}^{n}a_{i}f^{(i)}(t)=\phi (t)}
+  
+with given initial conditions
+
+  
+    
+      
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle f^{(i)}(0)=c_{i}}
+  
+Using the linearity of the Laplace transform it is equivalent to rewrite the equation as
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          
+            L
+          
+        
+        {
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        t
+        )
+        }
+        =
+        
+          
+            L
+          
+        
+        {
+        ϕ
+        (
+        t
+        )
+        }
+      
+    
+    {\displaystyle \sum _{i=0}^{n}a_{i}{\mathcal {L}}\{f^{(i)}(t)\}={\mathcal {L}}\{\phi (t)\}}
+  
+obtaining
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          s
+          
+            i
+          
+        
+        −
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            i
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          s
+          
+            i
+            −
+            j
+          
+        
+        
+          f
+          
+            (
+            j
+            −
+            1
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          
+            L
+          
+        
+        {
+        ϕ
+        (
+        t
+        )
+        }
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}\sum _{i=0}^{n}a_{i}s^{i}-\sum _{i=1}^{n}\sum _{j=1}^{i}a_{i}s^{i-j}f^{(j-1)}(0)={\mathcal {L}}\{\phi (t)\}}
+  
+Solving the equation for 
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}}
+   and substituting 
+  
+    
+      
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle f^{(i)}(0)}
+   with 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle c_{i}}
+   one obtains
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        =
+        
+          
+            
+              
+                
+                  L
+                
+              
+              {
+              ϕ
+              (
+              t
+              )
+              }
+              +
+              
+                ∑
+                
+                  i
+                  =
+                  1
+                
+                
+                  n
+                
+              
+              
+                ∑
+                
+                  j
+                  =
+                  1
+                
+                
+                  i
+                
+              
+              
+                a
+                
+                  i
+                
+              
+              
+                s
+                
+                  i
+                  −
+                  j
+                
+              
+              
+                c
+                
+                  j
+                  −
+                  1
+                
+              
+            
+            
+              
+                ∑
+                
+                  i
+                  =
+                  0
+                
+                
+                  n
+                
+              
+              
+                a
+                
+                  i
+                
+              
+              
+                s
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}={\frac {{\mathcal {L}}\{\phi (t)\}+\sum _{i=1}^{n}\sum _{j=1}^{i}a_{i}s^{i-j}c_{j-1}}{\sum _{i=0}^{n}a_{i}s^{i}}}}
+  
+The solution for f(t) is obtained by applying the inverse Laplace transform to 
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        .
+      
+    
+    {\displaystyle {\mathcal {L}}\{f(t)\}.}
+  
+Note that if the initial conditions are all zero, i.e.
+
+  
+    
+      
+        
+          f
+          
+            (
+            i
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          c
+          
+            i
+          
+        
+        =
+        0
+        
+        ∀
+        i
+        ∈
+        {
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        .
+        .
+        .
+         
+        n
+        }
+      
+    
+    {\displaystyle f^{(i)}(0)=c_{i}=0\quad \forall i\in \{0,1,2,...\ n\}}
+  
+then the formula simplifies to
+
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            
+              L
+            
+          
+          
+            −
+            1
+          
+        
+        
+          {
+          
+            
+              
+                
+                  
+                    L
+                  
+                
+                {
+                ϕ
+                (
+                t
+                )
+                }
+              
+              
+                
+                  ∑
+                  
+                    i
+                    =
+                    0
+                  
+                  
+                    n
+                  
+                
+                
+                  a
+                  
+                    i
+                  
+                
+                
+                  s
+                  
+                    i
+                  
+                
+              
+            
+          
+          }
+        
+      
+    
+    {\displaystyle f(t)={\mathcal {L}}^{-1}\left\{{{\mathcal {L}}\{\phi (t)\} \over \sum _{i=0}^{n}a_{i}s^{i}}\right\}}
+---------------------------------------------------------------------
+
+In mathematics, the Laplace transform is an integral transform named after its discoverer Pierre-Simon Laplace ().
+It takes a function of a real variable t (often time) to a function of a complex variable s (frequency).
+The Laplace transform is very similar to the Fourier transform.
+While the Fourier transform of a function is a complex function of a real variable (frequency), the Laplace transform of a function is a complex function of a complex variable.
+Techniques of complex variables can also be used to directly study Laplace transforms.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, the Laplace transform is an integral transform named after its discoverer Pierre-Simon Laplace (). It takes a function of a real variable t (often time) to a function of a complex variable s (frequency).
+The Laplace transform is very similar to the Fourier transform. While the Fourier transform of a function is a complex function of a real variable (frequency), the Laplace transform of a function is a complex function of a complex variable. Laplace transforms are usually restricted to functions of t with t ≥ 0. A consequence of this restriction is that the Laplace transform of a function is a holomorphic function of the variable s. Unlike the Fourier transform, the Laplace transform of a distribution is generally a well-behaved function. Techniques of complex variables can also be used to directly study Laplace transforms. As a holomorphic function, the Laplace transform has a power series representation. This power series expresses a function as a linear superposition of moments of the function. This perspective has applications in probability theory.
+The Laplace transform is invertible on a large class of functions. The inverse Laplace transform takes a function of a complex variable s (often frequency) and yields a function of a real variable t (time). Given a simple mathematical or functional description of an input or output to a system, the Laplace transform provides an alternative functional description that often simplifies the process of analyzing the behavior of the system, or in synthesizing a new system based on a set of specifications. So, for example, Laplace transformation from the time domain to the frequency domain transforms differential equations into algebraic equations and convolution into multiplication. It has many applications in the sciences and technology.
+---------------------------------------------------------------------
+
+In mathematics, the Lp spaces are function spaces defined using a natural generalization of the p-norm for finite-dimensional vector spaces.
+They are sometimes called Lebesgue spaces, named after Henri Lebesgue (Dunford & Schwartz 1958, III.3), although according to the Bourbaki group (Bourbaki 1987) they were first introduced by Frigyes Riesz (Riesz 1910).
+Lp spaces form an important class of Banach spaces in functional analysis, and of topological vector spaces.
+Because of their key role in the mathematical analysis of measure and probability spaces, Lebesgue spaces are used also in the theoretical discussion of problems in physics, statistics, finance, engineering, and other disciplines.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, the Lp spaces are function spaces defined using a natural generalization of the p-norm for finite-dimensional vector spaces. They are sometimes called Lebesgue spaces, named after Henri Lebesgue (Dunford & Schwartz 1958, III.3), although according to the Bourbaki group (Bourbaki 1987) they were first introduced by Frigyes Riesz (Riesz 1910). Lp spaces form an important class of Banach spaces in functional analysis, and of topological vector spaces. Because of their key role in the mathematical analysis of measure and probability spaces, Lebesgue spaces are used also in the theoretical discussion of problems in physics, statistics, finance, engineering, and other disciplines.
+---------------------------------------------------------------------
+
+"Bounded" and "boundary" are distinct concepts; for the latter see boundary (topology).
+A circle in isolation is a boundaryless bounded set, while the half plane is unbounded yet has a boundary.
+In mathematical analysis and related areas of mathematics, a set is called bounded, if it is, in a certain sense, of finite size.
+Conversely, a set which is not bounded is called unbounded.
+The word bounded makes no sense in a general topological space without a corresponding metric.
+
+-----------------------Summarized Summary------------------------------
+"Bounded" and "boundary" are distinct concepts; for the latter see boundary (topology). A circle in isolation is a boundaryless bounded set, while the half plane is unbounded yet has a boundary.
+In mathematical analysis and related areas of mathematics, a set is called bounded, if it is, in a certain sense, of finite size. Conversely, a set which is not bounded is called unbounded. The word bounded makes no sense in a general topological space without a corresponding metric.
+---------------------------------------------------------------------
+
+In mathematics, a function f defined on some set X with real or complex values is called bounded, if the set of its values is bounded.
+In other words, there exists a real number M such that
+
+  
+    
+      
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        ≤
+        M
+      
+    
+    {\displaystyle |f(x)|\leq M}
+  
+for all x in X.
+A function that is not bounded is said to be unbounded.
+Sometimes, if f(x) ≤ A for all x in X, then the function is said to be bounded above by A.
+An important special case is a bounded sequence, where X is taken to be the set N of natural numbers.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, a function f defined on some set X with real or complex values is called bounded, if the set of its values is bounded. In other words, there exists a real number M such that
+
+  
+    
+      
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        ≤
+        M
+      
+    
+    {\displaystyle |f(x)|\leq M}
+  
+for all x in X. A function that is not bounded is said to be unbounded.
+Sometimes, if f(x) ≤ A for all x in X, then the function is said to be bounded above by A. On the other hand, if f(x) ≥ B for all x in X, then the function is said to be bounded below by B.
+The concept should not be confused with that of a bounded operator.
+An important special case is a bounded sequence, where X is taken to be the set N of natural numbers. Thus a sequence f = (a0, a1, a2, ...) is bounded if there exists a real number M such that
+
+  
+    
+      
+        
+          |
+        
+        
+          a
+          
+            n
+          
+        
+        
+          |
+        
+        ≤
+        M
+      
+    
+    {\displaystyle |a_{n}|\leq M}
+  
+for every natural number n. The set of all bounded sequences, equipped with a vector space structure, forms a sequence space.
+This definition can be extended to functions taking values in a metric space Y. Such a function f defined on some set X is called bounded if for some a in Y there exists a real number M such that its distance function d ("distance") is less than M, i.e.
+
+  
+    
+      
+        d
+        (
+        f
+        (
+        x
+        )
+        ,
+        a
+        )
+        ≤
+        M
+      
+    
+    {\displaystyle d(f(x),a)\leq M}
+  
+for all x in X.
+If this is the case, there is also such an M for each other a, by the triangle inequality.
+---------------------------------------------------------------------
+
+In mathematics, more specifically functional analysis and operator theory, the notion of unbounded operator provides an abstract framework for dealing with differential operators, unbounded observables in quantum mechanics, and other cases.
+The term "unbounded operator" can be misleading, since
+"unbounded" should sometimes be understood as "not necessarily bounded";
+"operator" should be understood as "linear operator" (as in the case of "bounded operator");
+the domain of the operator is a linear subspace, not necessarily the whole space;
+this linear subspace is not necessarily closed; often (but not always) it is assumed to be dense;
+in the special case of a bounded operator, still, the domain is usually assumed to be the whole space.
+In contrast to bounded operators, unbounded operators on a given space do not form an algebra, nor even a linear space, because each one is defined on its own domain.
+The term "operator" often means "bounded linear operator", but in the context of this article it means "unbounded operator", with the reservations made above.
+The given space is assumed to be a Hilbert space.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, more specifically functional analysis and operator theory, the notion of unbounded operator provides an abstract framework for dealing with differential operators, unbounded observables in quantum mechanics, and other cases.
+The term "unbounded operator" can be misleading, since
+"unbounded" should sometimes be understood as "not necessarily bounded";
+"operator" should be understood as "linear operator" (as in the case of "bounded operator");
+the domain of the operator is a linear subspace, not necessarily the whole space;
+this linear subspace is not necessarily closed; often (but not always) it is assumed to be dense;
+in the special case of a bounded operator, still, the domain is usually assumed to be the whole space.
+In contrast to bounded operators, unbounded operators on a given space do not form an algebra, nor even a linear space, because each one is defined on its own domain.
+The term "operator" often means "bounded linear operator", but in the context of this article it means "unbounded operator", with the reservations made above. The given space is assumed to be a Hilbert space. Some generalizations to Banach spaces and more general topological vector spaces are possible.
+---------------------------------------------------------------------
+
+In mathematics, the inverse Laplace transform of a function F(s) is the piecewise-continuous and exponentially-restricted real function f(t) which has the property:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        (
+        s
+        )
+        =
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        (
+        s
+        )
+        =
+        F
+        (
+        s
+        )
+        ,
+      
+    
+    {\displaystyle {\mathcal {L}}\{f\}(s)={\mathcal {L}}\{f(t)\}(s)=F(s),}
+  
+where 
+  
+    
+      
+        
+          
+            L
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}}
+   denotes the Laplace transform.
+It can be proven that, if a function F(s) has the inverse Laplace transform f(t), then f(t) is uniquely determined (considering functions which differ from each other only on a point set having Lebesgue measure zero as the same).
+This result was first proven by Mathias Lerch in 1903 and is known as Lerch's theorem.
+The Laplace transform and the inverse Laplace transform together have a number of properties that make them useful for analysing linear dynamical systems.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, the inverse Laplace transform of a function F(s) is the piecewise-continuous and exponentially-restricted real function f(t) which has the property:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        {
+        f
+        }
+        (
+        s
+        )
+        =
+        
+          
+            L
+          
+        
+        {
+        f
+        (
+        t
+        )
+        }
+        (
+        s
+        )
+        =
+        F
+        (
+        s
+        )
+        ,
+      
+    
+    {\displaystyle {\mathcal {L}}\{f\}(s)={\mathcal {L}}\{f(t)\}(s)=F(s),}
+  
+where 
+  
+    
+      
+        
+          
+            L
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}}
+   denotes the Laplace transform.
+It can be proven that, if a function F(s) has the inverse Laplace transform f(t), then f(t) is uniquely determined (considering functions which differ from each other only on a point set having Lebesgue measure zero as the same). This result was first proven by Mathias Lerch in 1903 and is known as Lerch's theorem.
+The Laplace transform and the inverse Laplace transform together have a number of properties that make them useful for analysing linear dynamical systems.
+---------------------------------------------------------------------
+
+In mathematics, a polynomial sequence, i.e., a sequence of polynomials indexed by { 0, 1, 2, 3, ... } in which the index of each polynomial equals its degree, is said to be of binomial type if it satisfies the sequence of identities
+
+  
+    
+      
+        
+          p
+          
+            n
+          
+        
+        (
+        x
+        +
+        y
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+        
+          p
+          
+            k
+          
+        
+        (
+        x
+        )
+        
+        
+          p
+          
+            n
+            −
+            k
+          
+        
+        (
+        y
+        )
+        .
+{\displaystyle p_{n}(x+y)=\sum _{k=0}^{n}{n \choose k}\,p_{k}(x)\,p_{n-k}(y).}
+Many such sequences exist.
+The set of all such sequences forms a Lie group under the operation of umbral composition, explained below.
+Every sequence of binomial type may be expressed in terms of the Bell polynomials.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, a polynomial sequence, i.e., a sequence of polynomials indexed by { 0, 1, 2, 3, ... } in which the index of each polynomial equals its degree, is said to be of binomial type if it satisfies the sequence of identities
+
+  
+    
+      
+        
+          p
+          
+            n
+          
+        
+        (
+        x
+        +
+        y
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+        
+          p
+          
+            k
+          
+        
+        (
+        x
+        )
+        
+        
+          p
+          
+            n
+            −
+            k
+          
+        
+        (
+        y
+        )
+        .
+      
+    
+    {\displaystyle p_{n}(x+y)=\sum _{k=0}^{n}{n \choose k}\,p_{k}(x)\,p_{n-k}(y).}
+  
+Many such sequences exist. The set of all such sequences forms a Lie group under the operation of umbral composition, explained below. Every sequence of binomial type may be expressed in terms of the Bell polynomials. Every sequence of binomial type is a Sheffer sequence (but most Sheffer sequences are not of binomial type). Polynomial sequences put on firm footing the vague 19th century notions of umbral calculus.
+---------------------------------------------------------------------
+
+In mathematics, the Laplace transform is an integral transform named after its discoverer Pierre-Simon Laplace ().
+It takes a function of a real variable t (often time) to a function of a complex variable s (frequency).
+The Laplace transform is very similar to the Fourier transform.
+While the Fourier transform of a function is a complex function of a real variable (frequency), the Laplace transform of a function is a complex function of a complex variable.
+Techniques of complex variables can also be used to directly study Laplace transforms.
+
+-----------------------Summarized Summary------------------------------
+In mathematics, the Laplace transform is an integral transform named after its discoverer Pierre-Simon Laplace (). It takes a function of a real variable t (often time) to a function of a complex variable s (frequency).
+The Laplace transform is very similar to the Fourier transform. While the Fourier transform of a function is a complex function of a real variable (frequency), the Laplace transform of a function is a complex function of a complex variable. Laplace transforms are usually restricted to functions of t with t ≥ 0. A consequence of this restriction is that the Laplace transform of a function is a holomorphic function of the variable s. Unlike the Fourier transform, the Laplace transform of a distribution is generally a well-behaved function. Techniques of complex variables can also be used to directly study Laplace transforms. As a holomorphic function, the Laplace transform has a power series representation. This power series expresses a function as a linear superposition of moments of the function. This perspective has applications in probability theory.
+The Laplace transform is invertible on a large class of functions. The inverse Laplace transform takes a function of a complex variable s (often frequency) and yields a function of a real variable t (time). Given a simple mathematical or functional description of an input or output to a system, the Laplace transform provides an alternative functional description that often simplifies the process of analyzing the behavior of the system, or in synthesizing a new system based on a set of specifications. So, for example, Laplace transformation from the time domain to the frequency domain transforms differential equations into algebraic equations and convolution into multiplication. It has many applications in the sciences and technology.

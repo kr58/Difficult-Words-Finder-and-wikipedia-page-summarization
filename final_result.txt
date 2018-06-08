@@ -1,0 +1,228 @@
+Enter Link:
+https://mathoverflow.net/questions/197781/how-many-hamiltonian-cycles-can-be-removed-from-a-complete-directed-graph-before?rq=1
+mathoverflow.net
+CLEANED DATA = 
+['two opposite arcs connecting every pair', 'intersecting hamiltonian cycles since every vertex', 'left call two hamiltonian cycles intersecting', 'distinct vertices every hamiltonian cycle', 'question slightly let k n', 'even n geq k n', 'error since hamiltonian cycles', 'two oppositely directed edges', 'disjoint directed hamiltonian cycles', 'k directed hamiltonian cycles', 'n however tilson proved', 'intersecting hamiltonian cycles', 'k hamiltonian cycles', 'directed hamiltonian cycles', 'n k even', 'many hamiltonian cycles', 'n k odd', 'hence k n', 'question namely n', 'n people consider', 'seat people around', 'problem brought home', 'complete directed graph', 'upper bound rather', 'hamiltonian cycles', 'directed edge corresponds', 'exact answer thus', 'graph becomes disconnected', 'n vertices', 'directed graph', 'exact however', 'n demonstrates', 'directed edge', 'upper bound', 'outgoing edges', 'graph corresponds', 'complete graph', 'becomes disconnected', 'question started', 'problem boils', 'many ways', 'disconnected components', 'people sitting', 'th grader', 'snap solution', 'small experiment', 'seating arrangements', 'seating arrangement', 'round table', 'old theorem', 'maximum number', 'completely answers', 'cannot achieve', 'arguments leads', 'also check', 'true removing', 'pairwise non', 'pair', 'one compute', 'nodes breaks', 'maximal set', 'left', 'de decomposed', 'question', 'vertices', 'edge', 'answer', 'true', 'sitting', 'nodes', 'decomposed', 'walecki', 'therefore', 'share', 'right', 'rephrase', 'removed', 'person', 'note', 'friend', 'following', 'finding', 'exceptions', 'different', 'conjectured', 'conjecture', 'comes', 'break']
+88
+Word =  hamiltonian cycles
+Word =  n vertices
+Word =  directed graph
+Word =  exact however
+Word =  n demonstrates
+Word =  directed edge
+Word =  upper bound
+Word =  outgoing edges
+Word =  graph corresponds
+Word =  complete graph
+Word =  becomes disconnected
+Word =  problem boils
+Word =  disconnected components
+Word =  th grader
+Word =  snap solution
+Word =  seating arrangements
+Word =  seating arrangement
+Word =  round table
+Word =  old theorem
+Word =  maximum number
+Word =  completely answers
+Word =  cannot achieve
+Word =  pairwise non
+Word =  pair
+Word =  nodes breaks
+Word =  maximal set
+Word =  de decomposed
+Word =  vertices
+Word =  edge
+Word =  nodes
+Word =  decomposed
+Word =  walecki
+Word =  rephrase
+Word =  conjectured
+Word =  conjecture
+Parsing Data
+Creating mapping
+Done
+['http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_scientists', 'http://dbpedia.org/resource/Category:Graph_theory', 'http://dbpedia.org/resource/Category:Fields_of_mathematics']
+Summary List----------- ["http://dbpedia.org/resource/Schanuel's_conjecture", 'http://dbpedia.org/resource/Join_and_meet', 'http://dbpedia.org/resource/Signed_graph', 'http://dbpedia.org/resource/Hamiltonian_path', 'http://dbpedia.org/resource/Fourier_series', "http://dbpedia.org/resource/Maxwell's_equations", 'http://dbpedia.org/resource/Fourier_transform', 'http://dbpedia.org/resource/Graph_(mathematics)']
+
+
+-----------------------     Schanuel's_conjecture     ------------------------------
+In mathematics, specifically transcendental number theory, Schanuel's conjecture is a conjecture made by Stephen Schanuel in the 1960s concerning the transcendence degree of certain field extensions of the rational numbers.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Join_and_meet     ------------------------------
+In a partially ordered set P, the join and meet of a subset S are respectively the supremum (least upper bound) of S, denoted ⋁S, and infimum (greatest lower bound) of S, denoted ⋀S. In general, the join and meet of a subset of a partially ordered set need not exist; when they do exist, they are elements of P.Join and meet can also be defined as a commutative, associative and idempotent partial binary operation on pairs of elements from P. If a and b are elements from P, the join is denoted as a ∨ b and the meet is denoted a ∧ b. The join/meet of a subset of a totally ordered set is simply its maximal/minimal element, if such an element exists. A partially ordered set in which all pairs have a join is a join-semilattice. Dually, a partially ordered set in which all pairs have a meet is a meet-semilattice.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Signed_graph     ------------------------------
+In the area of graph theory in mathematics, a signed graph is a graph in which each edge has a positive or negative sign. A signed graph is balanced if the product of edge signs around every cycle is positive. Three fundamental questions about a signed graph are: Is it balanced? Signed graphs appeared first in a mathematical paper of Frank Harary in 1953. At the Center for Group Dynamics at the University of Michigan, Dorwin Cartwright and Harary generalized Fritz Heider's psychological theory of balance in triangles of sentiments to a psychological theory of balanced signed graphs.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Hamiltonian_path     ------------------------------
+In the mathematical field of graph theory, a Hamiltonian path (or traceable path) is a path in an undirected or directed graph that visits each vertex exactly once. A Hamiltonian cycle (or Hamiltonian circuit) is a Hamiltonian path that is a cycle. Determining whether such paths and cycles exist in graphs is the Hamiltonian path problem, which is NP-complete. Hamiltonian paths and cycles are named after William Rowan Hamilton who invented the icosian game, now also known as Hamilton's puzzle, which involves finding a Hamiltonian cycle in the edge graph of the dodecahedron. This solution does not generalize to arbitrary graphs.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Fourier_series     ------------------------------
+In mathematics, a Fourier series (English: ) is a way to represent a function as the sum of simple sine waves. More formally, it decomposes any periodic function or periodic signal into the sum of a (possibly infinite) set of simple oscillating functions, namely sines and cosines (or, equivalently, complex exponentials). The discrete-time Fourier transform is a periodic function, often defined in terms of a Fourier series. The Z-transform, another example of application, reduces to a Fourier series for the important case |z|=1. Fourier series are also central to the original proof of the Nyquist–Shannon sampling theorem.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Maxwell's_equations     ------------------------------
+Maxwell's equations are a set of partial differential equations that, together with the Lorentz force law, form the foundation of classical electromagnetism, classical optics, and electric circuits. The equations provide a conceptual underpinning for all electric, optical and radio technologies, including power generation, electric motors, wireless communication, cameras, televisions, computers etc. Maxwell's equations describe how electric and magnetic fields are generated by charges, currents, and changes of each other. One important consequence of the equations is that they demonstrate how fluctuating electric and magnetic fields propagate at the speed of light. Versions of Maxwell's equations based on the electric and magnetic potentials are preferred for explicitly solving the equations as a boundary value problem, analytical mechanics, or for use in quantum mechanics.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Fourier_transform     ------------------------------
+The Fourier transform (FT) decomposes a function of time (a signal) into the frequencies that make it up, in a way similar to how a musical chord can be expressed as the frequencies (or pitches) of its constituent notes. The Fourier transform of a function of time itself is a complex-valued function of frequency, whose absolute value represents the amount of that frequency present in the original function, and whose complex argument is the phase offset of the basic sinusoid in that frequency. The Fourier transform is called the frequency domain representation of the original signal. The term Fourier transform refers to both the frequency domain representation and the mathematical operation that associates the frequency domain representation to a function of time. The Fourier transform is not limited to functions of time, but in order to have a unified language, the domain of the original function is commonly referred to as the time domain.
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+################################ RESULT 2  For link 2###################################################################################################
+
+sarthak@sarthak-TM1613:~/Desktop/semester 6/IR/project/final$ python3 main.py 
+Enter Link:
+https://mathoverflow.net/questions/35834/how-many-pairs-of-edges-can-disconnect-a-biconnected-graph?rq=1
+mathoverflow.net
+CLEANED DATA = 
+['c edges whose removal disconnects g repeatedly perform', 'multigraphs g g g ldots g n', 'disconnect g however unless g', 'cdots frac frac n n', 'least left binom n right', 'simple randomized contraction algorithm', 'n cdot frac n', 'appealingly simple proof rests', 'biconnected graph g removing', 'n vertices c gt', 'edges whose removal', 'right frac n', 'c e g', 'least c otherwise', 'c edges leaving', 'binom n suppose', 'endpoint z edges', 'two nonempty sets', 'binom n k', 'r c observe', 'event r c', 'karger global min', 'binom n bound', 'integer k geq', 'exactly two vertices', 'specific cut c', 'exactly one endpoint', 'binom l pairs', 'uniformly random edge', 'single vertex z', 'isolated vertex conjecture', 'ldots n', 'approximate minimum cuts', 'biconnected graph consider', 'edge cuts containing', 'replace every edge', 'minimum edge cut', 'frac n', 'disconnect g', 'least n', 'binom n', 'g denote', 'g consequently', 'simple min', 'obtain g', 'n vertices', 'biconnected graph', 'kc edges', 'cut algorithm', 'leq n', 'random cut', 'minimum cut', 'single edge', 'cardinality c', 'l vertices', 'minimum cuts', 'every vertex', 'many pairs', 'edge cuts', 'vertices correspond', 'length l', 'every half', 'cut separating', 'candidate proof', 'edge connectivity', 'edge chosen', 'corresponding edge', 'replace u', 'distinct cuts', 'upper bound', 'specific set', 'simpler one', 'removal', 'one correspondence', 'merged together', 'general statements', 'general bound', 'follows immediately', 'following process', 'fact much', 'conjecture true', 'previously contracted', 'ever contracted', 'step note', 'edges', 'left', 'form b', 'disconnect', 'graph', 'vertices', 'proof', 'edge', 'vertex', 'cuts', 'consider', 'bound', 'contracted', 'true', 'step', 'obtain', 'form', 'cardinality', 'words', 'triconnected', 'tight', 'suspect', 'statement', 'sequence', 'ramifications', 'proved', 'prove', 'prod', 'probability', 'present', 'partition', 'pair', 'number', 'multigraph', 'lomonosov', 'karzanov', 'given', 'furthermore', 'find', 'fewer', 'dinitz', 'deleted', 'degree', 'cycles', 'cycle', 'corresponds', 'contradicting', 'contract', 'combining', 'claim', 'choose', 'bounds', 'bounded', 'bixby', 'attributed', 'assumption', 'analysis', 'also', 'adjacent']
+143
+Word =  ldots n
+Word =  frac n
+Word =  disconnect g
+Word =  binom n
+Word =  g denote
+Word =  g consequently
+Word =  simple min
+Word =  n vertices
+Word =  biconnected graph
+Word =  kc edges
+Word =  cut algorithm
+Word =  leq n
+Word =  random cut
+Word =  minimum cut
+Word =  single edge
+Word =  cardinality c
+Word =  l vertices
+Word =  minimum cuts
+Word =  every vertex
+Word =  many pairs
+Word =  edge cuts
+Word =  vertices correspond
+Word =  length l
+Word =  candidate proof
+Word =  edge connectivity
+Word =  edge chosen
+Word =  corresponding edge
+Word =  distinct cuts
+Word =  upper bound
+Word =  simpler one
+Word =  one correspondence
+Word =  merged together
+Word =  general statements
+Word =  general bound
+Word =  conjecture true
+Word =  previously contracted
+Word =  ever contracted
+Word =  step note
+Word =  edges
+Word =  disconnect
+Word =  graph
+Word =  vertices
+Word =  proof
+Word =  edge
+Word =  vertex
+Word =  bound
+Word =  contracted
+Word =  cardinality
+Word =  triconnected
+Word =  tight
+Word =  sequence
+Word =  ramifications
+Word =  prod
+Word =  partition
+Word =  pair
+Word =  multigraph
+Word =  lomonosov
+Word =  karzanov
+Word =  furthermore
+Word =  fewer
+Word =  dinitz
+Word =  degree
+Word =  cycles
+Word =  cycle
+Word =  corresponds
+Word =  contradicting
+Word =  contract
+Word =  combining
+Word =  bounds
+Word =  bounded
+Word =  bixby
+Word =  attributed
+Word =  assumption
+Word =  analysis
+Word =  adjacent
+Parsing Data
+Creating mapping
+Done
+['http://dbpedia.org/resource/Category:Fields_of_mathematics']
+Summary List----------- ['http://dbpedia.org/resource/Interval_(mathematics)', 'http://dbpedia.org/resource/Dinitz_conjecture', 'http://dbpedia.org/resource/Contradiction', 'http://dbpedia.org/resource/Binomial_coefficient', 'http://dbpedia.org/resource/Join_and_meet', 'http://dbpedia.org/resource/Metric_space', 'http://dbpedia.org/resource/Graph_(mathematics)']
+Unable To find Page on Wikipedia......
+
+
+-----------------------     Dinitz_conjecture     ------------------------------
+In combinatorics, the Dinitz theorem (formerly known as Dinitz conjecture) is a statement about the extension of arrays to partial Latin squares, proposed in 1979 by Jeff Dinitz, and proved in 1994 by Fred Galvin. It can also be formulated as a result in graph theory, that the list chromatic index of the complete bipartite graph K n , n {\displaystyle K_{n,n}} equals n {\displaystyle n} . That is, if each edge of the complete bipartite graph is assigned a set of n {\displaystyle n} colors, it is possible to choose one of the assigned colors for each edge such that no two edges incident to the same vertex have the same color. Galvin's proof generalizes to the statement that, for every bipartite multigraph, the list chromatic index equals its chromatic index. The more general edge list coloring conjecture states that the same holds not only for bipartite graphs, but also for any loopless multigraph.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Contradiction     ------------------------------
+In classical logic, a contradiction consists of a logical incompatibility between two or more propositions. It occurs when the propositions, taken together, yield two conclusions which form the logical, usually opposite inversions of each other. Illustrating a general tendency in applied logic, Aristotle's law of noncontradiction states that "One cannot say of something that it is and that it is not in the same respect and at the same time."
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Binomial_coefficient     ------------------------------
+Commonly, a binomial coefficient is indexed by a pair of integers n ≥ k ≥ 0 and is written ( n k ) . {\displaystyle {\tbinom {n}{k}}.} It is the coefficient of the xk term in the polynomial expansion of the binomial power (1 + x)n, and it is given by the formula ( n k ) = n ! For example: ( 1 + x ) 4 = ( 4 0 ) x 0 + ( 4 1 ) x 1 + ( 4 2 ) x 2 + ( 4 3 ) x 3 + ( 4 4 ) x 4 = 1 + 4 x + 6 x 2 + 4 x 3 + x 4 , {\displaystyle {\begin{array}{rcl}(1{+}x)^{4}&=&{\tbinom {4}{0}}x^{0}+{\tbinom {4}{1}}x^{1}+{\tbinom {4}{2}}x^{2}+{\tbinom {4}{3}}x^{3}+{\tbinom {4}{4}}x^{4}\\&=&1+4x+6x^{2}+4x^{3}+x^{4},\end{array}}} where ( 4 2 ) = 4 ! 2 ! 2 !
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Join_and_meet     ------------------------------
+In a partially ordered set P, the join and meet of a subset S are respectively the supremum (least upper bound) of S, denoted ⋁S, and infimum (greatest lower bound) of S, denoted ⋀S. In general, the join and meet of a subset of a partially ordered set need not exist; when they do exist, they are elements of P.Join and meet can also be defined as a commutative, associative and idempotent partial binary operation on pairs of elements from P. If a and b are elements from P, the join is denoted as a ∨ b and the meet is denoted a ∧ b. The join/meet of a subset of a totally ordered set is simply its maximal/minimal element, if such an element exists. A partially ordered set in which all pairs have a join is a join-semilattice. Dually, a partially ordered set in which all pairs have a meet is a meet-semilattice.
+---------------------------------------------------------------------
+
+
+
+
+-----------------------     Metric_space     ------------------------------
+In mathematics, a metric space is a set for which distances between all members of the set are defined. Those distances, taken together, are called a metric on the set. A metric on a space induces topological properties like open and closed sets, which lead to the study of more abstract topological spaces. The most familiar metric space is 3-dimensional Euclidean space. Other metric spaces occur for example in elliptic geometry and hyperbolic geometry, where distance on a sphere measured by angle is a metric, and the hyperboloid model of hyperbolic geometry is used by special relativity as a metric space of velocities.
+---------------------------------------------------------------------
+
+
+Unable To find Page on Wikipedia......
